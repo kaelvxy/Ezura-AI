@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MyPanel</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <br>
+  <div class="container">
+  <h1>ChatBot</h1>
+  </div>
+    <div id="waktu"></div>
+    <div id="tanggal"></div>
+    <div id="bt"></div>
+  <pre id="console"></pre>
+  <br>
+  <center>
+  <br>
+  <div class="kolom" id="kolom">
+  <input type="text" id="chat" placeholder="Masukan pesan...">
+  <button id="on" onclick="kirim()">⌲</button>
+  <br>
+  <button id="AI" onclick="nsend()">AI ⌲</button>
+  </div>
+  <br>
+  <div id="login" class="login">
+  <input type="text" id="username2" placeholder="Username">
+   <input type="text" id="username1" placeholder="Gmail">
+  <input type="password" id="username3" placeholder="Password Gmail">
+  <br>
+  <button onclick="save()" id="send">Save</button>
+  <button onclick="back()" id="send1">Kembali</button>
+  </div>
+  <br>
+  <br>
+  </center>
+  
+
+  
+  <script src="Chatbot.js"></script>
+  <script src="Script.js"></script>
+  <script src="Database.js"></script>
+  <script src="Listuser.js"></script>
+</html>
+</body>
